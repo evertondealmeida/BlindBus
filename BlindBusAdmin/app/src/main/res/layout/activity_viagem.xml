@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ViagemActivity">
+
+    <LinearLayout
+        android:layout_width="383dp"
+        android:layout_height="513dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView_SejaBemVindo"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Selecione a linha"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ListView
+            android:id="@+id/listview_Viagem"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/corselecionado" />
+
+        <Switch
+            android:id="@+id/switchSentido"
+            style="@style/AppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:checked="true"
+            android:showText="true"
+            android:splitTrack="false"
+            android:switchMinWidth="100dp"
+            android:text="Sentido Centro"
+            android:textAllCaps="false"
+            android:textOff="NÃO"
+            android:textOn="SIM"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btCadastrar"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.50"
+            android:baselineAligned="false"
+            android:text="Confirmar" />
+
+        <Button
+            android:id="@+id/btVoltar"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.50"
+            android:text="Voltar" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
