@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BlindBus User</string>
+    <string name="nao_suporta_bluetooth_msg">Este dispositivo não soporta bluetooth, não é possível detectar o ônibus</string>
+    <string name="bluetooth_desligado_msg">Com o bluetooth desligado não é possível detectar o ônibus</string>
+    <string name="ligando_busca_de_beacons">Buscando ônibus</string>
+    <string name="beacons_nao_detectado">Não tem nenhum ônibus próximo</string>
+    <string name="beacon_detectado">P10 Parque Marinha</string>
+    <string name="desligando_busca_de_beacons">Parando a busca por ônibus</string>
+    <string name="localizacao_negada">Esta aplicação necessita de acceso a localização</string>
+    <string name="conceda_acesso_da_localizacao">Por favor conceda permissão de localização para que que a aplicação possa detectar o ônibus</string>
+    <string name="funcionalidade_limitada">Funcionalidade limitada</string>
+    <string name="localizacao_nao_concedida">Como a permissão de localização não foi concedida,</string>
+    <string name="nao_procurar_beacons">esta aplicação não poderá buscar ônibus</string>
+    <string name="localizacao_desativada">Localização no modo de alta precisão não ativada</string>
+    <string name="configuracao_de_localizacao">Abrir configuração de localização</string>
+</resources>
